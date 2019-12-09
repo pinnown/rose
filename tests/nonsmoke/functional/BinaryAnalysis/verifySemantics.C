@@ -50,7 +50,6 @@ parseCommandLine(int argc, char *argv[], P2::Engine &engine, Settings &settings)
     Parser parser;
     parser
         .purpose(purpose)
-        .version(std::string(ROSE_SCM_VERSION_ID).substr(0, 8), ROSE_CONFIGURE_DATE)
         .chapter(1, "ROSE Command-line Tools")
         .with(engine.engineSwitches())
         .with(engine.disassemblerSwitches())

@@ -275,7 +275,6 @@ int main(int argc, char *argv[])
     Sawyer::CommandLine::Parser cmdline_parser;
     cmdline_parser.errorStream(::mlog[FATAL]);
     cmdline_parser.purpose("binary tainted flow analysis");
-    cmdline_parser.version(std::string(ROSE_SCM_VERSION_ID).substr(0, 8), ROSE_CONFIGURE_DATE);
     cmdline_parser.chapter(1, "ROSE Command-line Tools");
     cmdline_parser.doc("Synopsis",
                        "@prop{programName} [@v{tool_switches}] [-- @v{rose_switches}] @v{specimen}\n\n");

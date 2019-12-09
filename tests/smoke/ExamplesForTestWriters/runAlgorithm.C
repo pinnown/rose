@@ -21,7 +21,6 @@ main(int argc, char *argv[]) {
     // switches I would recommend something a little more readable.
     std::vector<std::string> args = cl::Parser()
                                     .purpose(purpose)
-                                    .version(std::string(ROSE_SCM_VERSION_ID).substr(0,8), ROSE_CONFIGURE_DATE)
                                     .chapter(1, "ROSE Command-line Tools")
                                     .doc("Synopsis", "@prop{programName} [@v{switches}] @v{files}")
                                     .doc("Description", description)

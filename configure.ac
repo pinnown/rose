@@ -32,8 +32,7 @@ fi
 dnl +--------------------------------------------------------------------------+
 dnl | ROSE versioning
 dnl +--------------------------------------------------------------------------+
-ROSE_SUPPORT_GIT_VERSIONING
-ROSE_CONFIGURE_SECTION([Configuring ${T_BM}ROSE${T_NM}, version ${T_BM}0.9.6a ($GIT_HEAD_HASH)${T_NM}])
+ROSE_CONFIGURE_SECTION([Configuring ${T_BM}ROSE${T_NM}, version ${T_BM}0.9.6a ${T_NM}])
 
 dnl +--------------------------------------------------------------------------+
 dnl | Autotools setup
